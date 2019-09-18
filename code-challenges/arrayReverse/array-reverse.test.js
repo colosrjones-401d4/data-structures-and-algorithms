@@ -1,3 +1,5 @@
+'user strict'
+
 const reverseArray = arr => {
   if (Array.isArray(arr)) {
     let result = [];
@@ -49,3 +51,4 @@ describe('Challenge 5', () => {
     expect(reverseArray('I\'m not an array!')).toBe('Not an array!');
   });
 });
+
