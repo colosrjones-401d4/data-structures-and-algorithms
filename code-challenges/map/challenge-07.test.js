@@ -10,7 +10,7 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 const forLoopTwoToThe = (arr) => {
   let result = [];
   for (let num of arr) {
-	  result.push(2 ** num);
+    result.push(2 ** num);
   }
   return result;
 };
@@ -21,7 +21,7 @@ Write a function named forEachTwoToThe that produces the same output as your for
 ------------------------------------------------------------------------------------------------ */
 
 const forEachTwoToThe = (arr) => {
-  let result= [];
+  let result = [];
   arr.forEach(num => result.push(2 ** num));
   return result;
 };
@@ -31,9 +31,7 @@ CHALLENGE 3
 Write a function named mapTwoToThe that produces the same output as your forLoopTwoToThe function from challenge 1 and your forEachTwoToThe function from challenge 2, but uses map instead of a for loop or forEach.
 ------------------------------------------------------------------------------------------------ */
 
-const mapTwoToThe = (arr) => 
-  arr.map(num => 2 ** num);
-
+const mapTwoToThe = (arr) => arr.map(num => 2 ** num);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -92,7 +90,7 @@ const snorlaxAbilities = {
   weight: 4600,
 };
 
-const extractAbilities = (arr) => arr.map(dog => dog.ability.name);
+const extractAbilities = (arr) => arr.map(item => item.ability.name);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7
@@ -133,7 +131,7 @@ const snorlaxStats = {
   weight: 4600,
 };
 
-const extractStats = (arr) => arr.map(baseball => { return {name: baseball.stat.name, total: baseball.baseStat + baseball.effort} });
+const extractStats = (arr) => arr.map(item => { return {name: item.stat.name, total: item.baseStat + item.effort} });
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
@@ -220,4 +218,4 @@ describe('Testing challenge 7', () => {
     ]);
     expect(extractStats(snorlaxStats.stats).length).toStrictEqual(3);
   });
-
+});
