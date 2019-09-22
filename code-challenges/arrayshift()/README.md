@@ -1,12 +1,13 @@
-## Challenge Summary
-# Reverse an Array
-The idea is to reverse an array in place.
+# Challenge Summary
+## Array Shift
+
+In this challenge we were given an array and a integer value. Next we needed to insert that value into the middle of that array.
 
 ## Challenge Description
-arrayReverse: creates a function that takes in an array and returns the same array with the values in reverse order. No array methods are used, the array is sorted in place, and empty arrays and non-array objects return -1.
+Inserting a given value into the middle of a given array and then making the second half of the array shift over one.
 
 ## Approach & Efficiency
-As array methods were disallowed as were array methods, I chose to use a for loop and a temp variable to iterate through the array and to swap the necessary variables. Big O = O(N);
+I took the approach of running a for loop for the first half of the array and putting those values into the new array. Then I took the given value and inserted it into the new array. Finally I ran another for loop to insert the second half of the values into the new array.
 
 ## Solution
 <!-- Embedded whiteboard image -->

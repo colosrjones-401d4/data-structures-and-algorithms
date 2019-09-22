@@ -1,12 +1,12 @@
-## Challenge Summary
-# Reverse an Array
-The idea is to reverse an array in place.
+# Challenge Summary
+## Linked List
+Linked Lists are a data structure that offer certain advantages over array lists
 
 ## Challenge Description
-arrayReverse: creates a function that takes in an array and returns the same array with the values in reverse order. No array methods are used, the array is sorted in place, and empty arrays and non-array objects return -1.
+The challenge was to create methods. Insert, Includes, forEach, toString, InsertArray
 
 ## Approach & Efficiency
-As array methods were disallowed as were array methods, I chose to use a for loop and a temp variable to iterate through the array and to swap the necessary variables. Big O = O(N);
+For time, Insert has a Big O(1). All the other methods have a Big O(n). For space, all methods have a Big O(n).
 
 ## Solution
 <!-- Embedded whiteboard image -->

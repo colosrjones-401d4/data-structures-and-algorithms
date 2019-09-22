@@ -1,12 +1,12 @@
 ## Challenge Summary
-# Reverse an Array
-The idea is to reverse an array in place.
+# Array Binary Search
+In this challenge we were given a sorted array and a search key. The task was to return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
 
 ## Challenge Description
-arrayReverse: creates a function that takes in an array and returns the same array with the values in reverse order. No array methods are used, the array is sorted in place, and empty arrays and non-array objects return -1.
+Find and return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
 
 ## Approach & Efficiency
-As array methods were disallowed as were array methods, I chose to use a for loop and a temp variable to iterate through the array and to swap the necessary variables. Big O = O(N);
+Compare the search key with the middle element. If the key matches with middle element, we return the middle index. Else If the key is greater than the middle element, then the key can only lie in right half after the middle element. Else (the key is smaller) then the key can only lie in right half after the middle element.
 
 ## Solution
 <!-- Embedded whiteboard image -->

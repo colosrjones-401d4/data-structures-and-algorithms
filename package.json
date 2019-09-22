@@ -1,25 +1,20 @@
 {
-  "name": "3-code-challenges",
+  "name": "code-challenges",
   "version": "1.0.0",
-  "description": "data-structures-and-algorithms # data-structures-and-algorithms data-structures-and-algorithms # data-structures-and-algorithms data-structures-and-algorithms # data-structures-and-algorithms data-structures-and-algorithms # data-structures-and-algorithms data-structures-and-algorithms",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage --verbose",
-    "watch": "jest --watchAll"
+    "watch": "jest --watchAll",
+    "lint": "eslint '**/*.js'"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^6.1.0"
+  },
+  "devDependencies": {
     "jest": "^24.9.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/colosrjones-401d4/data-structures-and-algorithms.git"
-  },
-  "bugs": {
-    "url": "https://github.com/colosrjones-401d4/data-structures-and-algorithms/issues"
-  },
-  "homepage": "https://github.com/colosrjones-401d4/data-structures-and-algorithms#readme"
+  }
 }
