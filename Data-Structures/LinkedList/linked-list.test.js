@@ -83,6 +83,9 @@ describe('ll-insertions.js', () => {
     expect(testList.head.next.next.value).toEqual(3);
     expect(testList.head.next.next.next).toBeNull();
   });
+  /**
+   * @param
+   */
   test('#insertBefore', () => {
     testList.insertBefore(2, 4);
     expect(testList.head.next.next.value).toEqual(2);
