@@ -1,15 +1,22 @@
-# Challenge Summary
-## Linked List
-Linked Lists are a data structure that offer certain advantages over array lists
+# Linked List Insertions
+Write the following methods for the Linked List class:
 
-## Challenge Description
-The challenge was to create methods. Insert, Includes, forEach, toString, InsertArray
+.append(value) which adds a new node with the given value to the end of the list
 
-## Approach & Efficiency
-For time, Insert has a Big O(1). All the other methods have a Big O(n). For space, all methods have a Big O(n).
+.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+
+.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+
+## Challenge
+Write the following methods for the Linked List class:
+
+.append(value) which adds a new node with the given value to the end of the list
+
+.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+
+.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 
 ## Solution
-<!-- Embedded whiteboard image -->
 
 ## Unit Tests
 <!-- Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
