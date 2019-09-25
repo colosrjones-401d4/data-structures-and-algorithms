@@ -1,20 +1,13 @@
-# Linked List Insertions
-Write the following methods for the Linked List class:
-
-.append(value) which adds a new node with the given value to the end of the list
-
-.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
-
-.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+# Linked List kth-from-end
 
 ## Challenge
-Write the following methods for the Linked List class:
+Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges. ​
 
-.append(value) which adds a new node with the given value to the end of the list
+kthFromEnd(value)
 
-.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+Input                  Args  Output
 
-.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+head->[1]->[2]->[3] ->  X      [2] 
 
 ## Solution
 
