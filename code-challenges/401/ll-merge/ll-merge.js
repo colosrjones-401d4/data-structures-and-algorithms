@@ -22,33 +22,33 @@ class LinkedList {
 
   }
 
-  mergeLists(a, b) {
+  mergeLists(list1, list2) {
 
-    this.head = a.head;
+    this.head = list1.head;
 
-    let currentA = a.head;
-    let currentB = b.head;
+    let currList1 = list1.head;
+    let currList2 = list2.head;
 
     let node = this.head;
 
-    while (currentA || currentB) {
+    while (currList1 || currList2) {
 
-      if (a.head === null) {
-        return b.head;
-      } else if (b.head === null) {
-        return a.head;
+      if (list1.head === null) {
+        return list2.head;
+      } else if (list2.head === null) {
+        return list1.head;
       }
 
-      if (currentA) currentA = currentA.next;
+      if (currList1) currList1 = currList1.next;
 
-      if (currentB) {
-        node.next = currentB; //2
-        currentB = currentB.next; //4
+      if (currList2) {
+        node.next = currList2; //2
+        currList2 = currList2.next; //4
         node = node.next; //2
       }
-      if (currentA) {
-        node.next = currentA; //3
-        currentA = currentA.next; //3
+      if (currList1) {
+        node.next = currList1; //3
+        currList1 = currList1.next; //3
         node = node.next; //3
       }
 
