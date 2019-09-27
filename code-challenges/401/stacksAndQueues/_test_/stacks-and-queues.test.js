@@ -10,7 +10,7 @@ describe('Test for Stacks and Queues', () => {
 
     expect(stackTest.top.value).toEqual(3);
   });
-// 2nd test passed!!! Can successfully push multiple values onto a stack
+  // 2nd test passed!!! Can successfully push multiple values onto a stack
   it('Can sucessfully push multiple values onto a stack', () => {
     const stackTest = new SandQ.Stack();
     [2,4,6].forEach(num => stackTest.push(num));
@@ -20,7 +20,7 @@ describe('Test for Stacks and Queues', () => {
     expect(stackTest.top.next.next.value).toEqual(2);
   });
 
-// Can successfully pop off the stack
+  // Can successfully pop off the stack
   it('Can successfully pop off the stack', () => {
     const stackTest = new SandQ.Stack();
     [4,8].forEach(num => stackTest.push(num));
@@ -32,29 +32,29 @@ describe('Test for Stacks and Queues', () => {
   });
 
 
-// Can successfully empty a stack after multiple pops
+  // Can successfully empty a stack after multiple pops
 
 
-// Can successfully peek the next item on the stack
+  // Can successfully peek the next item on the stack
 
 
-// Can successfully instantiate an empty stack
+  // Can successfully instantiate an empty stack
 
 
-// Can successfully enqueue into a queue
+  // Can successfully enqueue into a queue
 
 
-// Can successfully enqueue multiple values into a queue
+  // Can successfully enqueue multiple values into a queue
 
 
-// Can successfully dequeue out of a queue the expected value
+  // Can successfully dequeue out of a queue the expected value
 
 
-// Can successfully peek into a queue, seeing the expected value
+  // Can successfully peek into a queue, seeing the expected value
 
 
-// Can successfully empty a queue after multiple dequeues
+  // Can successfully empty a queue after multiple dequeues
 
 
-// Can successfully instantiate an empty queue
+  // Can successfully instantiate an empty queue
 }); 
