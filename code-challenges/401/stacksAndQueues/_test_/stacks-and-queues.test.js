@@ -20,7 +20,7 @@ describe('Test for Stacks and Queues', () => {
     expect(stackTest.top.next.next.value).toEqual(2);
   });
 
-  // Can successfully pop off the stack
+  // 3rd passed - Can successfully pop off the stack
   it('Can successfully pop off the stack', () => {
     const stackTest = new SandQ.Stack();
     [4,8].forEach(num => stackTest.push(num));
@@ -31,12 +31,25 @@ describe('Test for Stacks and Queues', () => {
 
   });
 
+  // 4th passed - Can successfully empty a stack after multiple pops
+  it('Can successfully empty a stack after multiple pops', () => {
+    const stackTest = new SandQ.Stack();
+    [2,4,6].forEach(num => stackTest.push(num));
+    stackTest.pop();
+    stackTest.pop();
+    stackTest.pop();
 
-  // Can successfully empty a stack after multiple pops
+    expect(stackTest.top).toBeNull();
+  });
 
+  // 5th passed - Can successfully peek the next item on the stack
+  it('Can successfully peek the next time on the stack', () => {
+    const stackTest = new SandQ.Stack();
+    [2,4,6].forEach(num => stackTest.push(num));
+    let peek = stackTest.peek();
 
-  // Can successfully peek the next item on the stack
-
+    expect(peek).toEqual(6);
+  });
 
   // Can successfully instantiate an empty stack
 
