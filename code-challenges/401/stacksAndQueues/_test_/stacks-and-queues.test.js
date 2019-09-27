@@ -51,14 +51,32 @@ describe('Test for Stacks and Queues', () => {
     expect(peek).toEqual(6);
   });
 
-  // Can successfully instantiate an empty stack
+  // 6th passed - Can successfully instantiate an empty stack
+  it('Can successfully instantiate an empty stack', () => {
+    const stackTest = new SandQ.Stack();
 
+    expect(stackTest.top).toBeNull();
+  });
 
-  // Can successfully enqueue into a queue
+  // 7th passed - Can successfully enqueue into a queue
+  it('Can successfully enqueue into a queue', () => {
+    const queueTest = new SandQ.Queue();
+    [2,4,6].forEach(num => queueTest.enqueue(num));
 
+    expect(queueTest.front.value).toEqual(2);
+    expect(queueTest.front.next.value).toEqual(4);
+    expect(queueTest.back.value).toEqual(6);
+  });
 
-  // Can successfully enqueue multiple values into a queue
+  //  1st failed - changed value numbers then 8th passed - Can successfully enqueue multiple values into a queue
+  it('Can successfully enqueue multiple values into a queue', () => {
+    const queueTest = new SandQ.Queue();
+    [2,4,6].forEach(num => queueTest.enqueue(num));
 
+    expect(queueTest.front.value).toEqual(2);
+    expect(queueTest.front.next.value).toEqual(4);
+    expect(queueTest.front.next.next.value).toEqual(6);
+  });
 
   // Can successfully dequeue out of a queue the expected value
 
