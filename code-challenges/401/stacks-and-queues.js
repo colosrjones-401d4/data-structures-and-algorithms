@@ -23,32 +23,32 @@ class Stack {
 
 class Queue {
   constructor() {
-    this.first = null;
-    this.last = null;
+    this.front = null;
+    this.back = null;
   }
   enqueue(value) {
     let newNode = new Node(value);
 
-    if (this.last === null) {
-      this.first = newNode;
-      this.last = newNode;
+    if (this.back === null) {
+      this.front = newNode;
+      this.back = newNode;
     } else {
-      this.last.next = newNode;
-      this.last = newNode;
+      this.back.next = newNode;
+      this.back = newNode;
     }
   }
 
   dequeue() {
-    const out = this.first.value;
-    if (this.first || this.first.next) {
-      this.first = this.first.next;
+    const out = this.front.value;
+    if (this.front || this.first.next) {
+      this.front = this.first.next;
     }
-    if (this.first === null) this.last = null;
+    if (this.front === null) this.back = null;
     return out;
   }
 
   peek() {
-    return this.first.value;
+    return this.front.value;
   }
 }
 module.exports = { Stack, Queue };
