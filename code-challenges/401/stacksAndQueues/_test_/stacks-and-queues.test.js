@@ -75,17 +75,45 @@ describe('Test for Stacks and Queues', () => {
 
     expect(queueTest.front.value).toEqual(2);
     expect(queueTest.front.next.value).toEqual(4);
-    expect(queueTest.front.next.next.value).toEqual(6);
+    expect(queueTest.back.value).toEqual(6);
   });
 
-  // Can successfully dequeue out of a queue the expected value
+  // Failed(dequeue to enqueue) Now it passed - Can successfully dequeue out of a queue the expected value
+  it('Can successfully dequeue out of a queue the expected value', () => {
+    const queueTest = new SandQ.Queue();
+    [2,4,6].forEach(num => queueTest.enqueue(num));
+    queueTest.dequeue();
+    
+    expect(queueTest.front.value).toEqual(4);
+    expect(queueTest.front.next.value).toEqual(6);
+  });
+
+  // Passed - Can successfully peek into a queue, seeing the expected value
+  it('Can successfully peek into a queue, seeing the expected value', () => {
+    const queueTest = new SandQ.Queue();
+    [2,4,6].forEach(num => queueTest.enqueue(num));
+    const peek = queueTest.peek();
+
+    expect(peek).toEqual(2);
+  });
 
 
-  // Can successfully peek into a queue, seeing the expected value
+  // Passed - Can successfully empty a queue after multiple dequeues
+  it('Can successfully empty a queue after multiple dequeues', () => {
+    const queueTest = new SandQ.Queue();
+    [3,6,9].forEach(num => queueTest.enqueue(num));
+    queueTest.dequeue();
+    queueTest.dequeue();
+    queueTest.dequeue();
 
+    expect(queueTest.front).toBeNull();
+    expect(queueTest.back).toBeNull();
+  });
 
-  // Can successfully empty a queue after multiple dequeues
+  // Passed - Can successfully instantiate an empty queue
+  it('Can successfully instantiate an empty queue', () => {
+    const queueTest = new SandQ.Queue();
 
-
-  // Can successfully instantiate an empty queue
+    expect(queueTest.front).toBeNull();
+  });
 }); 

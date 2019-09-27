@@ -40,8 +40,8 @@ class Queue {
 
   dequeue() {
     const out = this.front.value;
-    if (this.front || this.first.next) {
-      this.front = this.first.next;
+    if (this.front || this.front.next) {
+      this.front = this.front.next;
     }
     if (this.front === null) this.back = null;
     return out;
