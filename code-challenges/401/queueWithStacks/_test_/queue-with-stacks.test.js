@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-const QandS = require('../queueWithStacks');
+const QandS = require('../queue-with-stacks');
 
 describe('Test for Stacks and Queues', () => {
 // First test passed!!! Can successfully push onto a stack
@@ -8,16 +8,16 @@ describe('Test for Stacks and Queues', () => {
     const stackTest = new QandS.Stack();
     stackTest.push(3);
 
-    expect(stackTest.top.value).toEqual(3);
+    expect(stackTest.bottom.value).toEqual(3);
   });
   // 2nd test passed!!! Can successfully push multiple values onto a stack
   it('Can sucessfully push multiple values onto a stack', () => {
     const stackTest = new QandS.Stack();
     [2,4,6].forEach(num => stackTest.push(num));
 
-    expect(stackTest.top.value).toEqual(6);
-    expect(stackTest.top.next.value).toEqual(4);
-    expect(stackTest.top.next.next.value).toEqual(2);
+    expect(stackTest.bottom.value).toEqual(6);
+    expect(stackTest.bottom.next.value).toEqual(4);
+    expect(stackTest.bottom.next.next.value).toEqual(2);
   });
 
   // 3rd passed - Can successfully pop off the stack
@@ -26,8 +26,8 @@ describe('Test for Stacks and Queues', () => {
     [4,8].forEach(num => stackTest.push(num));
     stackTest.pop();
 
-    expect(stackTest.top.value).toEqual(4);
-    expect(stackTest.top.next).toBeNull();
+    expect(stackTest.bottom.value).toEqual(4);
+    expect(stackTest.bottom.next).toBeNull();
 
   });
 
@@ -39,7 +39,7 @@ describe('Test for Stacks and Queues', () => {
     stackTest.pop();
     stackTest.pop();
 
-    expect(stackTest.top).toBeNull();
+    expect(stackTest.bottom).toBeNull();
   });
 
   // 5th passed - Can successfully peek the next item on the stack
@@ -55,42 +55,42 @@ describe('Test for Stacks and Queues', () => {
   it('Can successfully instantiate an empty stack', () => {
     const stackTest = new QandS.Stack();
 
-    expect(stackTest.top).toBeNull();
+    expect(stackTest.bottom).toBeNull();
   });
 
   // 7th passed - Can successfully enqueue into a queue
   it('Can successfully enqueue into a queue', () => {
-    const queueTest = new QandS.Queue();
+    const queueTest = new QandS.PseudoQueue();
     [2,4,6].forEach(num => queueTest.enqueue(num));
 
-    expect(queueTest.front.value).toEqual(2);
+    expect(queueTest.front.value).toEqual(6);
     expect(queueTest.front.next.value).toEqual(4);
-    expect(queueTest.back.value).toEqual(6);
+    expect(queueTest.back.value).toEqual(2);
   });
 
   //  1st failed - changed value numbers then 8th passed - Can successfully enqueue multiple values into a queue
   it('Can successfully enqueue multiple values into a queue', () => {
-    const queueTest = new QandS.Queue();
+    const queueTest = new QandS.PseudoQueue();
     [2,4,6].forEach(num => queueTest.enqueue(num));
 
-    expect(queueTest.front.value).toEqual(2);
-    expect(queueTest.front.next.value).toEqual(4);
     expect(queueTest.back.value).toEqual(6);
+    expect(queueTest.back.next.value).toEqual(4);
+    expect(queueTest.front.value).toEqual(2);
   });
 
   // Failed(dequeue to enqueue) Now it passed - Can successfully dequeue out of a queue the expected value
   it('Can successfully dequeue out of a queue the expected value', () => {
-    const queueTest = new QandS.Queue();
+    const queueTest = new QandS.PseudoQueue();
     [2,4,6].forEach(num => queueTest.enqueue(num));
     queueTest.dequeue();
     
-    expect(queueTest.front.value).toEqual(4);
-    expect(queueTest.front.next.value).toEqual(6);
+    expect(queueTest.back.value).toEqual(4);
+    expect(queueTest.back.next.value).toEqual(6);
   });
 
   // Passed - Can successfully peek into a queue, seeing the expected value
   it('Can successfully peek into a queue, seeing the expected value', () => {
-    const queueTest = new QandS.Queue();
+    const queueTest = new QandS.PseudoQueue();
     [2,4,6].forEach(num => queueTest.enqueue(num));
     const peek = queueTest.peek();
 
@@ -100,7 +100,7 @@ describe('Test for Stacks and Queues', () => {
 
   // Passed - Can successfully empty a queue after multiple dequeues
   it('Can successfully empty a queue after multiple dequeues', () => {
-    const queueTest = new QandS.Queue();
+    const queueTest = new QandS.PseudoQueue();
     [3,6,9].forEach(num => queueTest.enqueue(num));
     queueTest.dequeue();
     queueTest.dequeue();
@@ -112,7 +112,7 @@ describe('Test for Stacks and Queues', () => {
 
   // Passed - Can successfully instantiate an empty queue
   it('Can successfully instantiate an empty queue', () => {
-    const queueTest = new QandS.Queue();
+    const queueTest = new QandS.PseudoQueue();
 
     expect(queueTest.front).toBeNull();
   });
