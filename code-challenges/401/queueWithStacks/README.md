@@ -1,7 +1,7 @@
 # Code Challenge 11
 ### Queue with Stacks
 
-## Travis ![Build](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master}
+## Travis ![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)
 
 ## Challenge
 * Create a brand new `PseudoQueue` class. Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below), but will internally only utilize 2 Stack objects. Ensure that you create your class with the following methods:
