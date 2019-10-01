@@ -1,58 +1,30 @@
 'use strict';
 
-const Node = require('./node');
+const Stack = require('./stack');
 
-class Stack {
-  constructor() {
-    this.bottom = null;
+class PseudoQueue{
+  constructor(){
+    this.stack1 = new Stack();
+    this.stack2 = null;
   }
-  push(value) {
-    const top = this.bottom;
-    this.bottom = new Node(value);
-    this.bottom.next = top;
+  enqueue(value){
+    this.stack1.push(value);
+    let current = this.stack1.front;
+    this.stack2 = new Stack();
+    while(current){
+      this.stack2.push(current.value);
+      current = current.next;
+    }
   }
-  pop() {
-    const out = this.bottom.value; //to pop out value to variable that will return
-    this.bottom = this.bottom.next; // move next value to the top
-    return out;
-  }
-  peek() {
-    return this.value;
+  dequeue(){
+    if (this.stack2 === null && this.stack1 === null){
+      return 'Nothing to pop';
+    } else if (this.stack1 !== null && this.stack2 === null){
+      return this.stack1.pop().value;
+    } else{
+      return this.stack2.pop().value;
+    }
   }
 }
 
-// enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
-// dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
-// The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor
-
-class PseudoQueue {
-  constructor() {
-    this.back = null;
-    this.front = null;
-  }
-  enqueue(value) {
-    let newNode = new Node(value);
-
-    if (this.front === null) {
-      this.back = newNode;
-      this.front = newNode;
-    } else {
-      this.front.next = newNode;
-      this.front = newNode;
-    }
-  }
-
-  dequeue() {
-    const out = this.back.value;
-    if (this.back || this.back.next) {
-      this.back = this.back.next;
-    }
-    if (this.back === null) this.front = null;
-    return out;
-  }
-
-  peek() {
-    return this.back.value;
-  }
-}
-module.exports = { Stack, PseudoQueue };
+module.exports = PseudoQueue;
