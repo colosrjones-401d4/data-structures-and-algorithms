@@ -1,7 +1,11 @@
 'use strict';
 
-const { Node } = require('../../data-structures/linkedList/linked-list.js');
-
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+  }
+}
 class AnimalShelter {
   constructor() {
     this.back = null;
