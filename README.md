@@ -5,7 +5,7 @@
 ## * [Challenge 1: Reverse an Array](./readmes/arrayreverse.md)
 ## * [Challenge 2: Insert and Shift Array](./readmes/arrayshift.md)
 ## * [Challenge 3: Binary Search](./readmes/binarysearch.md)
-## * [Challenge 4: Peer Interview Whiteboard 
+## * Challenge 4: Peer Interview Whiteboard 
 
 ## Week 2
 
