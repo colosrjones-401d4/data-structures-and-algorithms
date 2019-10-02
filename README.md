@@ -1,5 +1,7 @@
 # Data Structures and Algorithms
 
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+
 ## Week 1
 
 ## * [Challenge 1: Reverse an Array](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/arrayReverse)
