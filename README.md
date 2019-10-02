@@ -20,7 +20,7 @@
 ## * [Challenge 10: Stacks and Queues](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/stacksAndQueues)
 ## * [Challenge 11: PseudoQueue Using Two Stacks](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/queueWithStacks)
 ## * [Challenge 12: FIFO Animal Shelter](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/fifoAnimalShelter)
-## * [Challenge 13: Multi Bracket Validation](./readmes/multibracketvalidation.md)
+## * [Challenge 13: Multi Bracket Validation](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/multiBracketValidation)
 ## * Challenge 14: Peer Interview Whiteboard 
 
 ## Week 4
