@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# 401 Advanced Javascript - Data Structures and Algorithms
 
 [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
