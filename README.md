@@ -2,24 +2,24 @@
 
 ## Week 1
 
-## * [Challenge 1: Reverse an Array](./readmes/arrayreverse.md)
-## * [Challenge 2: Insert and Shift Array](./readmes/arrayshift.md)
-## * [Challenge 3: Binary Search](./readmes/binarysearch.md)
+## * [Challenge 1: Reverse an Array](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/arrayReverse)
+## * [Challenge 2: Insert and Shift Array](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/arrayShift)
+## * [Challenge 3: Binary Search](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/arrayBinarySearch)
 ## * Challenge 4: Peer Interview Whiteboard 
 
 ## Week 2
 
-## * [Challenge 5: Linked List Data Structure](./readmes/linkedlist.md)
+## * [Challenge 5: Linked List Data Structure](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
 ## * [Challenge 6: Linked List Insertions](./readmes/ll_insertions.md)
-## * [Challenge 7: Return the Kth Value From the End of a Linked List](./readmes/ll_kth_from_end.md)
-## * [Challenge 8: Merge two Linked Lists](./readmes/ll_merge.md)
+## * [Challenge 7: Return the Kth Value From the End of a Linked List](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/ll-kth-from-end)
+## * [Challenge 8: Merge two Linked Lists](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/llMerge)
 ## * Challenge 9: Peer Interview Whiteboard 
 
 ## Week 3
 
-## * [Challenge 10: Stacks and Queues](./readmes/stacks_and_queues.md)
-## * [Challenge 11: PseudoQueue Using Two Stacks](./readmes/pseudoqueue.md)
-## * [Challenge 12: FIFO Animal Shelter](./readmes/fifo_animal_shelter.md)
+## * [Challenge 10: Stacks and Queues](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/stacksAndQueues)
+## * [Challenge 11: PseudoQueue Using Two Stacks](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/queueWithStacks)
+## * [Challenge 12: FIFO Animal Shelter](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/fifoAnimalShelter)
 ## * [Challenge 13: Multi Bracket Validation](./readmes/multibracketvalidation.md)
 ## * Challenge 14: Peer Interview Whiteboard 
 
