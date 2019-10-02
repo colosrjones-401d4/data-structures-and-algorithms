@@ -12,5 +12,17 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^24.1.0"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colosrjones-401d4/data-structures-and-algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colosrjones-401d4/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/colosrjones-401d4/data-structures-and-algorithms#readme"
 }
