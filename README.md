@@ -27,7 +27,7 @@
 
 ## Week 4
 
-## * [Challenge 15: Binary Trees](./readmes/binary_trees.md)
+## * [Challenge 15: Binary Trees](https://github.com/colosrjones-401d4/data-structures-and-algorithms/blob/tree/tree/README.md)
 ## * [Challenge 16: FizzBuzz Tree](./readmes/fizzbuzztree.md)
 ## * [Challenge 17: Breadth-First Traversal](./readmes/breadthfirst.md)
 ## * [Challenge 18: Find Max Value of Binary Tree](./readmes/findmaxvalue.md)
