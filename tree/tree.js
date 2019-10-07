@@ -32,6 +32,7 @@ const inOrder = (root, arr) => {
     return;
   }
 
+
   //Recursive case - left / root / right
   inOrder(root.left, arr);
   arr.push(root.value);
