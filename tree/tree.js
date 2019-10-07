@@ -1,5 +1,4 @@
 'use strict';
-
 class Node {
   constructor(value) {
     this.value = value;
@@ -125,5 +124,5 @@ module.exports = {
   BinaryTree,
   preOrder,
   postOrder,
-  inOrder
+  inOrder,
 };
