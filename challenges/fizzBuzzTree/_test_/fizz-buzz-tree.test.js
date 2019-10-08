@@ -6,9 +6,11 @@ const fizzBuzzTree = require('../fizz-buzz-tree');
 describe('First Test', () => {
   it('If the value is divisible by 3, replace the value with “Fizz”', () => {
     let tree = new BinaryTree();
-    // add stuff to it
 
-    fizzBuzzTree(tree.root);
+    //TODO to fix describe ===================================================
+
+    
+    fizzBuzzTree(root.value);
 
     expect('fizz');
 
