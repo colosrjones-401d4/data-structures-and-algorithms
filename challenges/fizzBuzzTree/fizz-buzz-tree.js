@@ -1,40 +1,26 @@
 'use strict';
 
-class Node {
-  constructor(value) {
-    this.value = value;
-    this.left = null;
-    this.right = null;
-  }
-}
-
-class FizzBuzzTree {
-  constructor(root = null) {
-    this.root = root;
-  }
-}
-
-const fizzBuzz = (root) => {
-  if (root == null) {
+const fizzbuzzTree = (root) => {
+  //Base case
+  if (root === null){
     return;
   }
 
-  if (root.value % 3 == 0 && root.value % 5 == 0) {
-    fizzBuzz(root.value = 'fizzBuzz');
+  //Recursive case
+  if (root.value % 3 === 0 && root.value % 5 === 0){
+    root.value = 'fizzbuzz';
   } else {
-    if (root.value % 3) {
-      fizzBuzz(root.value = 'fizz');
-
-    } else if (root.value % 5) {
-      fizzBuzz(root.value = 'buzz');
+    if (root.value % 3 === 0){
+      root.value = 'fizz';
+    } else if (root.value % 5 === 0){
+      root.value = 'buzz';
     }
-    fizzBuzz(root.left);
-    fizzBuzz(root.right);
   }
-  return fizzBuzz;
+
+  fizzbuzzTree(root.left);
+  fizzbuzzTree(root.right);
+
+  return root;
 };
 
-module.exports = {
-  Node,
-  FizzBuzzTree,
-};
+module.exports = fizzbuzzTree;
