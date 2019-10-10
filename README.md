@@ -30,5 +30,5 @@
 ## * [Challenge 15: Binary Trees](https://github.com/colosrjones-401d4/data-structures-and-algorithms/blob/tree/tree/README.md)
 ## * [Challenge 16: FizzBuzz Tree](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/fizzBuzzTree)
 ## * [Challenge 17: Breadth-First Traversal](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/breadth-first)
-## * [Challenge 18: Find Max Value of Binary Tree](./readmes/findmaxvalue.md)
+## * [Challenge 18: Find Max Value of Binary Tree](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/find-maximum-binary-tree)
 
