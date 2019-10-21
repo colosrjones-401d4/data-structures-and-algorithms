@@ -1,7 +1,7 @@
 ## Sorts: Implement Insertion Sort
-[PR](https://github.com/)
+[PR](https://github.com/colosrjones-401d4/data-structures-and-algorithms/pull/15)
 
-[![Build Status](https://travis-ci.org/)](https://travis-ci.org/)
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 # Insertion Sort
 
