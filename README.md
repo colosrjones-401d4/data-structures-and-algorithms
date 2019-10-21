@@ -33,3 +33,8 @@
 ## * [Challenge 18: Find Max Value of Binary Tree](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/find-maximum-binary-tree)
 ## * Challenge 19: Peer Interview Whiteboard 
 
+## Week 5
+
+## * [Challenge 26: Insertion Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
+
+
