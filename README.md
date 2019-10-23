@@ -37,4 +37,8 @@
 
 ## * [Challenge 26: Insertion Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
 
+## * [Challenge 27: Merge Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
+
+## * [Challenge 28: Quick Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
+
 
