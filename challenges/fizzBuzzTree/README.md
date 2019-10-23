@@ -19,4 +19,4 @@
 This solution has a Big O notation efficiency of O(n) for time and O(h) for space, where h is the tree's height.
 
 ## Solution
-![whiteboard](./fizzbuzztree.jpg)
+

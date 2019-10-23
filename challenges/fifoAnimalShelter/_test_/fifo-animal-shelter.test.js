@@ -1,6 +1,6 @@
 'use strict';
 
-const AnimalShelter = require('../fifo-animal-shelter.js');
+const AnimalShelter = require('../fifo-animal-shelter')
 
 describe('`AnimalShelter` class', () => {
   it('Can successfully instantiate an empty animal shelter`', () => {
