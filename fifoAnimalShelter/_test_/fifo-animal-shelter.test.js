@@ -1,57 +1,95 @@
 'use strict';
 
-const AnimalShelter = require('../fifo-animal-shelter');
+const AnimalShelter = require('../fifo-animal-shelter.js');
 
-describe('running tests on animal shelter', () => {
-  it('can take in a animal using enqueue', () => {
-    let test = new AnimalShelter();
-    test.enqueue({
-      name: 'buddy',
-      type: 'dog'
-    });
-    test.enqueue({
-      name: 'tanner',
-      type: 'cat'
-    });
-    test.enqueue({
-      name: 'jacob',
-      type: 'dog'
-    });
-    expect(test.length).toEqual(3);
+describe('`AnimalShelter` class', () => {
+  it('Can successfully instantiate an empty animal shelter`', () => {
+    const as = new AnimalShelter();
+    expect(as).toBeDefined();
   });
-  it('can take remove the correct animal based on type', () => {
-    let test = new AnimalShelter();
-    test.enqueue({
-      name: 'buddy',
-      type: 'dog'
+
+  describe('`enqueue(animal)` method', () => {
+    it('Can successfully `enqueue` a `dog` or `cat` onto a stack', () => {
+      const as = new AnimalShelter();
+      as.enqueue('dog');
+      expect(as.front.data).toBe('dog');
     });
-    test.enqueue({
-      name: 'tanner',
-      type: 'cat'
+    it('Can successfully `enqueue` multiple animals onto a stack', () => {
+      const as = new AnimalShelter();
+      as.enqueue('cat');
+      as.enqueue('dog');
+      as.enqueue('dog');
+      expect(as.front.data).toBe('cat');
+      expect(as.front.next.data).toBe('dog');
+      expect(as.back.data).toBe('dog');
     });
-    test.enqueue({
-      name: 'jacob',
-      type: 'dog'
-    });
-    expect(test.dequeue('cat')).toEqual({
-      name: 'tanner',
-      type: 'cat'
+    it('Returns `null` if `enqueue` is used on an animal other then a dog or cat', () => {
+      const as = new AnimalShelter();
+      const attempt = as.enqueue('mouse');
+      expect(attempt).toBeNull();
     });
   });
-  it('can return null if no pref is inputed in dequeue', () => {
-    let test = new AnimalShelter();
-    test.enqueue({
-      name: 'buddy',
-      type: 'dog'
+  describe('`dequeue(pref)` method', () => {
+    it('Can successfully `dequeue` off the animal shelter the expected value', () => {
+      const as = new AnimalShelter();
+      as.enqueue('cat');
+      const value = as.dequeue('cat');
+      expect(value).toBe('cat');
     });
-    test.enqueue({
-      name: 'tanner',
-      type: 'cat'
+    it('Can successfully empty an animal shelter after multiple `dequeue`s.', () => {
+      const as = new AnimalShelter();
+      as.enqueue('cat');
+      as.enqueue('dog');
+      as.enqueue('dog');
+      expect(as.front.data).toBe('cat');
+      as.dequeue('cat');
+      expect(as.front.data).toBe('dog');
+      as.dequeue('dog');
+      expect(as.front.data).toBe('dog');
+      as.dequeue('dog');
+      expect(as.front).toBeNull();
     });
-    test.enqueue({
-      name: 'jacob',
-      type: 'dog'
+    it('Can successfully `dequeue` an animal that is not at the front', () => {
+      const as = new AnimalShelter();
+      as.enqueue('cat');
+      as.enqueue('cat');
+      as.enqueue('cat');
+      as.enqueue('cat');
+      as.enqueue('cat');
+      as.enqueue('dog');
+      const pref = as.dequeue('dog');
+      expect(pref).toBe('dog');
     });
-    expect(test.dequeue()).toEqual(null);
+    it('Returns `null` if the animal shelter is empty', () => {
+      const as = new AnimalShelter();
+      const oops = as.dequeue('cat');
+      expect(oops).toBeNull();
+    });
+    it('Returns `null` if there is one animal in the shelter, but it is not `pref`', () => {
+      const as = new AnimalShelter();
+      as.enqueue('cat');
+      const oops = as.dequeue('dog');
+      expect(as.front.data).toBe('cat');
+      expect(oops).toBeNull();
+    });
+    it('Returns `null` if the `pref` is not a `dog` or `cat`', () => {
+      const as = new AnimalShelter();
+      const oops = as.dequeue('platypus');
+      expect(oops).toBeNull();
+    });
+    it('Maintains FIFO order after multiple dequeues', () => {
+      const as = new AnimalShelter();
+      as.enqueue('cat');
+      as.enqueue('cat');
+      as.enqueue('dog');
+      as.enqueue('dog');
+      as.enqueue('cat');
+
+      as.dequeue('dog');
+      expect(as.front.data).toBe('cat');
+      expect(as.front.next.data).toBe('cat');
+      expect(as.front.next.next.data).toBe('dog');
+      expect(as.front.next.next.next.data).toBe('cat');
+    });
   });
 });
