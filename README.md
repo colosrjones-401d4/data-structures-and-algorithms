@@ -37,8 +37,11 @@
 
 ## * [Challenge 26: Insertion Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
 
-## * [Challenge 27: Merge Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
+## * [Challenge 27: Merge Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/mergesort/challenges/mergesort)
 
-## * [Challenge 28: Quick Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/insertionsort/challenges/insertion-sort)
+## * [Challenge 28: Quick Sort](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/quicksort/challenges/quicksort)
+## * Challenge 29: Peer Interview Whiteboard 
+
+## * [Challenge 30: Hashtable](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/hashtable/challenges/hashtable)
 
 
