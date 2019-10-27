@@ -1,7 +1,7 @@
 # Challenge 28
 
 ## Sorts: Implement Quick Sort
-[PR](https://github.com/)
+[PR](https://github.com/colosrjones-401d4/data-structures-and-algorithms/blob/quicksort/challenges/quicksort/quick-sort.js)
 
 [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
