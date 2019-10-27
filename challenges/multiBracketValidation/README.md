@@ -1,11 +1,15 @@
 
-# Mult-Bracket Validation
+# Multi-Bracket Validation
+Return a Boolean representing whether or not the brackets in a string are balanced. 
 
-# Challenge
-Given a string, create a function that return true if there is a set of matching brackets. And return false if not.
+## Challenge
+* Create a function that takes a string as its only argument and returns a Boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+  * Round Brackets : ()
+  * Square Brackets : []
+  * Curly Brackets : {}
 
-# Examples
-Input = {}(){}
-Output = true;
-Input = ()[[Extra Characters]]
-Output = true
+## Approach & Efficiency
+* My approach was to create a stack as a helper data structure within this function because stacks use a LIFO model: when a closing bracket is encountered reading left to right, the first out of the stack of preceding opening brackets should always be its match.
+* The function takes a string and iterates through it. It pushes opening brackets to the stack. When a character `i` in the string iteration is a closing bracket, the function pops off a character from the stack and compares it to `i` using the `matchers` object. In this manner, brackets are compared in the order in which they should match, and any mismatched or unmatched brackets cause a `false` return. Edge cases are handled separately.
+
+This solution has a Big O notation efficiency of O(n) for time and space
