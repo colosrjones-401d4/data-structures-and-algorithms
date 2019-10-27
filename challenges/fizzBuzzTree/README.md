@@ -1,5 +1,5 @@
 ## Code Challenge 16: FizzBuzz Tree
-[PR](https://github.com/)
+[PR](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/fizzBuzzTree/)
 
 [TRAVIS](https://travis-ci.org/)
 
