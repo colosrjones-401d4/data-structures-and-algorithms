@@ -58,7 +58,7 @@
 
 ## * Challenge 29: Peer Interview Whiteboard 
 
-## * [Challenge 28: Hashtable](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/hashtable/challenges/hashtable)
+## * [Challenge 28: Hashtable](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/Data-Structures/hashtable)
 
 
 
