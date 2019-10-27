@@ -1,4 +1,4 @@
-# Code Challenge 17
+# Code Challenge 18
 
 ### Find Max Value in a Binary Tree
 
