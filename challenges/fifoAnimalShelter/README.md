@@ -1,16 +1,9 @@
-# Challenge Summary
+# Challenge Summary  
+First in First out 'animal shelter' class  
 
-## FIFO Animal Shelter
-
-
-
-## Challenge Description
-
-
-## Approach & Efficiency
-
-
-## Solution
-<!-- Embedded whiteboard image -->
-
+## Challenge Description  
+Create an AnimalShelter class that uses the first in, first out paradigm and accepts only cats and dogs. It has two methods: enqueue(animal) and dequeue(preference). You can add either a cat or a dog with enqueue(), and you can removve/retrieve a cat, a dog, or either using dequeue().  
+  
+## Approach & Efficiency  
+The internal structure uses two Queues and both enqueue() and dequeue() have an O(1).  
 
