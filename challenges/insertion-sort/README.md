@@ -1,9 +1,9 @@
+# Challenge 26
+
 ## Sorts: Implement Insertion Sort
 [PR](https://github.com/colosrjones-401d4/data-structures-and-algorithms/pull/15)
 
 [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
-
-# Insertion Sort
 
 ## Challenge
 * Write a function for insertion sort that takes in an unsorted array and returns the array sorted using insertion sort.
