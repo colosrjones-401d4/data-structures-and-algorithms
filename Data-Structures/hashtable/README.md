@@ -1,6 +1,8 @@
 ## DSA CODE CHALLENGE 30
 * [GitHub - Pull Request]()
 
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+
 ### Hash Table
 * Create a `Hashtable` class.
 
