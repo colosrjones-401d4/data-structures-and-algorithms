@@ -16,7 +16,7 @@
 
 ## * [Challenge 5: Linked List Data Structure](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
 
-## * [Challenge 6: Linked List Insertions](./readmes/ll_insertions.md)
+## * [Challenge 6: Linked List Insertions](https://github.com/colosrjones-401d4/data-structures-and-algorithms/blob/master/ll-insertions/README.md)
 
 ## * [Challenge 7: Return the Kth Value From the End of a Linked List](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/ll-kth-from-end)
 
