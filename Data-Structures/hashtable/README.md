@@ -1,4 +1,5 @@
-## DSA CODE CHALLENGE 30
+# Challenge 30
+
 * [GitHub - Pull Request](https://github.com/colosrjones-401d4/data-structures-and-algorithms/blob/master/Data-Structures/hashtable/hashtable.js)
 
 [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
