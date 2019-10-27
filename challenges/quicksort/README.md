@@ -1,9 +1,9 @@
+# Challenge 28
+
 ## Sorts: Implement Quick Sort
 [PR](https://github.com/)
 
-[![Build Status](https://travis-ci.org/)](https://travis-ci.org/)
-
-# Quick Sort
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 ## Challenge
 * 
