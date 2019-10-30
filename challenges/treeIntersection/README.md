@@ -1,16 +1,14 @@
-## Sorts: Implement Quick Sort
-[PR](https://github.com/)
+# Challenge 32 Tree Intersection
+[PR](https://github.com/colosrjones-401d4/data-structures-and-algorithms/pull/24)
 
-[![Build Status](https://travis-ci.org/)](https://travis-ci.org/)
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
-# Quick Sort
+# Challenge Summary
+Find common values in 2 binary trees.
 
-## Challenge
-* 
-Write a function for quick sort that takes in an unsorted array and returns the array sorted using quick sort.
+## Challenge Description
+Write a function called tree_intersection that takes two binary tree parameters.
+Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
 
 ## Approach & Efficiency
-* Quick sort is an efficient, recursive divide-and-conquer approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
-
-## UML
-N/A
+For this challenge, I used my pre-existing binary tree traversal methods - in this case, breadth-first, to traverse across two separate binary trees. I then put all values into an array, and returned which values were duplicates.
