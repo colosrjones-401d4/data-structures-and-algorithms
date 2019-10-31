@@ -62,11 +62,11 @@
 
 ## Week 6
 
-## * [Challenge 31: Repeated Word](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/repeated-word/challenges/repeated-word)[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## * [Challenge 31: Repeated Word](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/repeatedWord)[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
-## * [Challenge 32: Tree Intersection](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/tree-intersection/challenges/tree-intersection)[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## * [Challenge 32: Tree Intersection](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/treeIntersection)[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
-## * [Challenge 33: Left Join](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/left-join/challenges/left-join)[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## * [Challenge 33: Left Join](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/left-join)[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 ## * Challenge 34: Peer Interview Whiteboard 
 
