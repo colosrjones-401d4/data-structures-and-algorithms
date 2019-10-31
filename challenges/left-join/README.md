@@ -1,14 +1,14 @@
 # Challenge 34 
 
-## Travis[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
-## Pull Request(https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/left-join/challenges/left-join)
+## Travis [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## Pull Request *(https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/left-join/challenges/left-join)
 
 ## Left Join
 
 Perform a left join on two hashmaps
 
 ### Challenge
-
+ 
 Write a function that returns a data structure displaying the output of a left join on two hashmaps. 
 
 ### Approach & Efficiency
