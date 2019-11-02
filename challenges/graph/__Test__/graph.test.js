@@ -28,7 +28,7 @@ describe('Implementing the Graph', () => {
     it('should successfully added a vertex to the graph', () => {
       let graph = new Graph();
 
-      let test = graph.addValue('test');
+      let test = graph.addNode('test');
       graph.addVertex(test);
 
       expect(graph._adjacencyList.get(test)).toEqual([]);
@@ -47,8 +47,8 @@ describe('Implementing the Graph', () => {
     it('An edge can be successfully added to the graph', () => {
       let graph = new Graph();
 
-      let hello = graph.addValue('hello');
-      let hi = graph.addValue('oh-hi');
+      let hello = graph.addNode('hello');
+      let hi = graph.addNode('oh-hi');
       graph.addVertex(hello);
       graph.addVertex(hi);
 
