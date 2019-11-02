@@ -17,7 +17,6 @@ Implement graph data structures with the following methods:
 3. GetNodes()
 4. GetNeighbors()
 5. Size()
-6. BreadthFirst()
 
 ## Approach & Efficiency
 To create the Graph, a Node and an Edge class are created. The graph then has a property of nodes that uses a HashMap data structure.
@@ -35,16 +34,6 @@ To create the Graph, a Node and an Edge class are created. The graph then has a 
 
 5.Size()
 - Time 0(n) and space complexities: O(1)
-
-6. BreadthFirst()
-- Time O(n^2) since looping through queue and set of neighbors
-- Space O(n) from using list
-
-7. DepthFirst()
-- Time O(n^2) since looping through queue and set of neighbors
-- Space O(n) from using list
-
-
 
 ## API
 1. AddNode()
@@ -68,17 +57,3 @@ To create the Graph, a Node and an Edge class are created. The graph then has a 
 
 5.Size()
 - Returns the total number of nodes in the graph
-
-6. BreadthFirst()
-- returns list based from breadth-first traversal
-
-7. DepthFirst()
-- returns list based from depth-first traversal
-
-## Source Codes
-* [Graph classes]()
-* [Graph Test]()
-* BreadthFirst
-![alt bfs]()
-* DepthFirst
-![alt depthfirst]()

@@ -22,9 +22,9 @@ class Graph{
 
   }
   //Add Vertex(Node)
-  addValue(value){
+  addNode(value){
     if (!value){
-      return null; 
+      return null
     }else{
       let vertex = new Vertex(value);
       this.addVertex(vertex);
