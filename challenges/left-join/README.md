@@ -1,6 +1,8 @@
-# Challenge 33 
+
+# Challenge 33 Left Join
 
 ## Travis [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+
 ## Pull Request *(https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/left-join/challenges/left-join)
 
 ## Left Join
