@@ -1,5 +1,3 @@
-# Code: Trees
-=================================================
 
 ## Trees
 
@@ -7,6 +5,8 @@
 
 ### Links and Resources
 * [repo]()
+
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 #### Description
 Code Challenge Practice implementing a tree.

@@ -1,6 +1,8 @@
-# Code Challenge 17
+# Code Challenge 18
 
 ### Find Max Value in a Binary Tree
+
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 ## Challenge
 * Find the Maximum Value in a Binary Tree 

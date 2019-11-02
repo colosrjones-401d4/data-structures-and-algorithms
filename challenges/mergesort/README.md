@@ -1,9 +1,11 @@
+# Challenge 27
+
 ## Sorts: Implement Merge Sort
+
 [PR](https://github.com/)
 
-[![Build Status](https://travis-ci.org/)](https://travis-ci.org/)
+[![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
-# Merge Sort
 
 ## Challenge
 * 

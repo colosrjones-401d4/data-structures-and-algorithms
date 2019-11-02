@@ -41,7 +41,7 @@ The pivot selection and partitioning steps can be done in several different ways
 
 ## Pseudocode
 
-ALGORITHM QuickSort(arr, left, right)
+    //ALGORITHM QuickSort(arr, left, right)
     if left < right
         // Partition the array by setting the position of the pivot value 
         DEFINE position <-- Partition(arr, left, right)
@@ -50,7 +50,7 @@ ALGORITHM QuickSort(arr, left, right)
         // Sort the right
         QuickSort(arr, position + 1, right)
 
-ALGORITHM Partition(arr, left, right)
+    //ALGORITHM Partition(arr, left, right)
     // set a pivot value as a point of reference
     DEFINE pivot <-- arr[right]
     // create a variable to track the largest index of numbers lower than the defined pivot
@@ -66,7 +66,7 @@ ALGORITHM Partition(arr, left, right)
     // return the pivot index point
      return low + 1
 
-ALGORITHM Swap(arr, i, low)
+    //ALGORITHM Swap(arr, i, low)
     DEFINE temp;
     temp <-- arr[i]
     arr[i] <-- arr[low]
