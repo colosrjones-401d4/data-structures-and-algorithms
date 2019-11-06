@@ -78,7 +78,7 @@
 
 ## * [Challenge 37: Get Edges](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/getEdge) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
-## * [Challenge 38: Depth First](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/depth-first/challenges/depth-first) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## * [Challenge 38: Depth First](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/depthFirst) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 ## * Challenge 39: Peer Interview Whiteboard 
 
