@@ -74,9 +74,9 @@
 
 ## Week 7
 
-## * [Challenge 36: Breadth First Graph](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/breadth-first-graph/challenges/breadth-first-graph) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## * [Challenge 36: Breadth First Graph](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/breadthFirst) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
-## * [Challenge 37: Get Edges](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/get-edges/challenges/get-edges) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
+## * [Challenge 37: Get Edges](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/master/challenges/getEdge) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
 ## * [Challenge 38: Depth First](https://github.com/colosrjones-401d4/data-structures-and-algorithms/tree/depth-first/challenges/depth-first) [![Build Status](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.org/colosrjones-401d4/data-structures-and-algorithms)
 
