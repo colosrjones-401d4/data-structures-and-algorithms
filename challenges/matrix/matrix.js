@@ -1,4 +1,3 @@
-
 var matrix = [
   [1, 2, 6, 8],
   [3, 4, 0, 4],
@@ -13,7 +12,16 @@ console.log(matrix[2][2]); // 7
 console.log(matrix[1][2]); // 0
 console.log(matrix);
 
-for (var i = 0; i < matrix.length; i++) {
-  for (var j = 0;  j < matrix.length; j++)
-    console.log('[' + i + ',' + j + '] = ' + matrix[i][j]);
+
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[0].length; j++);
+ 
+  console.log(matrix);
 }
+
+
+ 
+
+
+
+

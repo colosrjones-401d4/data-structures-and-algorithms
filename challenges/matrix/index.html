@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<body>
+  <head>
+    <script>
+      var matrix = [
+  [1, 2, 6, 8],
+  [3, 4, 0, 4],
+  [5, 6, 7, 2],
+  [2, 6, 8, 9]
+];
+console.log(matrix[0][0]); // 1
+console.log(matrix[0][1]); // 2
+console.log(matrix[1][0]); // 3
+console.log(matrix[2][2]); // 7
+//to find 0 on 2D array
+console.log(matrix[1][2]); // 0
+console.log(matrix);
+
+const row = matrix.length,
+  col = matrix[0].length;
+
+for (var i = 0; i < row; i++) {
+  for (var j = 0; j < col; j++) {
+    const cur = matrix[i][j];
+    if (cur === 0) {
+      matrixRow(i, j, matrix);
+      matrixCol(i, j, matrix);
+    }
+  }
+}
+
+convertToZero(matrix, row, col);
+
+return matrix;
+
+
+function convertToZero(matrix, row, col) {
+  for (let i = 0; i < row; i++) {
+    for (let j = 0; j < col; j++) {
+      if (matrix[i][j] === 'X') matrix[i][j] = 0;
+    }
+  }
+}
+
+function matrixRow(i, j, matrix) {
+  const source = matrix[i];
+  for (let k = 0; k < source.length; k++) {
+    if (source[k] !== 0) source[k] = 'X'; // Only if it's not zero.
+  }
+}
+
+function matrixCol(i, j, matrix) {
+  for (let k = 0; k < matrix.length; k++) {
+    const cur = matrix[k];
+    if (cur[j] !== 0) cur[j] = 'X'; // Only if it's not zero.
+  }
+  console.log(row);
+  console.log(col);
+  console.log(convertToZero);
+  console.log('[' + i + ',' + j + '] = ' + matrix[i][j]);
+  console.log(matrixRow);
+  console.log(matrixCol);
+
+}
+
+
+
+      </script>
+  </head>
+</body>
